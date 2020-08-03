@@ -138,6 +138,60 @@ li span {
     min-width: 100%;
 }
 
+.main__team {
+    background: #000000;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: #ffffff;
+}
+
+.main__team h1 {
+    font-size: 44px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background: #fcac45;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 85px;
+}
+
+.photo {
+    background: #d7d7d7;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.team__cards {
+    display: flex;
+    margin: auto 200px;
+}
+
+.card {
+    margin: 0 40px;
+}
+
+.name {
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.position {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 33px;
+}
+
+.about__position {
+    font-size: 14px;
+}
+
 @media screen and (max-width:1105px) {
     nav {
         margin-left: 10%;
@@ -170,20 +224,23 @@ li span {
         width: 100%;
     }
     .topnav.responsive {
+        margin-top: 50px;
         position: relative;
         top: 50px;
         left: -200px;
     }
     header .topnav.responsive {
-
         height: 340px;
     }
     .topnav.responsive a.icon {
+        margin-top: -67px;
+        font-size: 34px;
         position: absolute;
         top: -50px;
         right: -200px;
     }
     .topnav.responsive a {
+        margin-left: -30%;
         font-size: 20px;
         float: none;
         display: block;
@@ -201,7 +258,6 @@ li span {
     .mw-100 {
         max-width: 100%;
     }
-
     .main__about {
         flex-direction: column;
     }
@@ -215,5 +271,8 @@ li span {
     .about__right h1 {
         margin-top: 10px;
         font-size: 31px;
+    }
+    .team__cards {
+        flex-direction: column;
     }
 }
