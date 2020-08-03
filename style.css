@@ -83,6 +83,11 @@ main .main__welcome h1 {
     color: #fcac45;
 }
 
+.wrapper {
+    width: 72%;
+    margin: 0 auto;
+}
+
 @media screen and (max-width:1105px) {
     nav {
         margin-left: 10%;
