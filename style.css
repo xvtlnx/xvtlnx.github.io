@@ -35,7 +35,7 @@ header {
 nav {
     text-transform: uppercase;
     margin-top: 56px;
-    margin-left: 29%;
+    margin-left: 40%;
 }
 
 .topnav a {
@@ -106,6 +106,7 @@ main .main__about {
 }
 
 .about__right h1 {
+    font-size: 31px;
     display: inline-block;
     border-bottom: 3px solid #fcac45;
     padding-bottom: 21px;
@@ -174,6 +175,7 @@ li span {
         left: -200px;
     }
     header .topnav.responsive {
+
         height: 340px;
     }
     .topnav.responsive a.icon {
@@ -199,6 +201,7 @@ li span {
     .mw-100 {
         max-width: 100%;
     }
+
     .main__about {
         flex-direction: column;
     }
@@ -211,6 +214,6 @@ li span {
     }
     .about__right h1 {
         margin-top: 10px;
-        font-size: 20px;
+        font-size: 31px;
     }
 }
