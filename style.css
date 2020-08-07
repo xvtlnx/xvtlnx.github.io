@@ -536,4 +536,7 @@ footer {
     .line3 img:not(:first-child) {
         display: none;
     }
+    .form__inputs p {
+        font-size: 30px;
+    }
 }
